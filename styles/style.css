@@ -36,6 +36,10 @@ h1 {
 h4 {
     font-weight: 400;
 }
+hr{
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.10);
+}
 
 .find-des {
     display: flex;
@@ -193,7 +197,8 @@ p {
 .section-4-texts {
     text-align: center;
 }
-.section-4-texts h1{
+
+.section-4-texts h1 {
     padding-bottom: 48px;
 }
 
@@ -226,9 +231,74 @@ p {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin: 24px auto;
-    
+
 }
-.s4-cm{
+
+.s4-cm {
     display: flex;
     justify-content: space-between;
 }
+
+.section-6 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-6-texts {
+    max-width: 532px;
+
+}
+
+.section-6-texts h1 {
+    padding-bottom: 1.5rem;
+}
+
+.section-6-texts ul {
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btm-lg-txt {
+    font-size: 1rem;
+    size: 80%;
+}
+
+.newslatter {
+    /* background-color: black; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.newslatter-card{
+    display: grid;
+    max-width: 380px;
+    border: 1px solid #EA3333;
+    border-radius: 1rem;
+    padding: 50px;
+    
+}
+
+.newslatter-card input {
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-promo{
+    position: relative;
+}
+.promo-text{
+    padding: 50px;
+    border-radius: 1rem;
+    background-color: #EA3333;
+    color: aliceblue;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    transform: rotate(5deg);
+}
+
+
