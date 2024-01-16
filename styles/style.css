@@ -41,7 +41,9 @@ hr {
     margin-bottom: 20px;
     color: rgba(19, 19, 24, 0.10);
 }
-
+.hambur{
+    display: none;
+}
 
 .find-des {
     display: flex;
@@ -341,6 +343,7 @@ p {
 
 @media screen and (max-width: 600px) {
     body {
+        width: 100vw;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -351,6 +354,12 @@ p {
 
     .main-nav li {
         display: none;
+    }
+    .hambur{
+        display: block;
+    }
+    .main-nav{
+        width: 90vw;
     }
 
 
@@ -465,7 +474,8 @@ p {
         width: 90vw;
     }
     .promo-text{
-        max-width: 250px;
+        max-width: 30vw;
+        border-radius: 25%;
     }
 
 }
