@@ -41,7 +41,8 @@ hr {
     margin-bottom: 20px;
     color: rgba(19, 19, 24, 0.10);
 }
-.hambur{
+
+.hambur {
     display: none;
 }
 
@@ -243,6 +244,67 @@ p {
     display: flex;
     justify-content: space-between;
 }
+.section-5-texts h1{
+    padding-bottom: 50px;
+}
+
+.section-5 {}
+
+.section-5-texts {
+    text-align: center;
+
+}
+
+.deals-card {
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-card-firstline {
+    display: flex;
+    gap: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}
+
+.gapandcolor {
+    color: #EA3333;
+    padding-bottom: 10px;
+}
+
+.deals1 {
+    background-image: url('../images/Tour-1.png');
+    height: 500px;
+    margin-bottom: 20px;
+    
+    
+}
+.deals2 {
+    background-image: url('../images/Tour-2.png');
+    height: 500px;
+    margin-bottom: 20px;
+}
+.deals3 {
+    background-image: url('../images/Tour-1.png');
+    height: 500px;
+}
+#d1, #d3{
+    margin-left: 50%;
+    
+}
+#d2{
+ margin-left: 10%;
+}
+
+
 
 .section-6 {
     margin-top: 100px;
@@ -355,10 +417,12 @@ p {
     .main-nav li {
         display: none;
     }
-    .hambur{
+
+    .hambur {
         display: block;
     }
-    .main-nav{
+
+    .main-nav {
         width: 90vw;
     }
 
@@ -443,7 +507,7 @@ p {
     .section-4-texts {
         width: 90vw;
         text-align: center;
-        
+
     }
 
     .s4-card {
@@ -453,13 +517,23 @@ p {
     #card3 {
         margin: 0 0;
     }
+    .deals1{
+        /* height: 500px;
+        object-fit: fill; */
+
+    }
+    #d1, #d2, #d3{
+        margin: 0;
+    }
+
 
     .section-6 {
         max-width: 90vw;
         flex-direction: column;
         gap: 20px;
     }
-    .section-6-content{
+
+    .section-6-content {
         width: 80vw;
     }
 
@@ -473,7 +547,8 @@ p {
     .footer {
         width: 90vw;
     }
-    .promo-text{
+
+    .promo-text {
         max-width: 30vw;
         border-radius: 25%;
     }
